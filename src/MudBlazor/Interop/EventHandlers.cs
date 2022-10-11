@@ -1,6 +1,5 @@
 ﻿using System;
-using Microsoft.AspNetCore.Components;
-
+using Microsoft.AspNetCore.Components; 
 namespace MudBlazor.Events
 {
     /// <summary>
@@ -17,4 +16,4 @@ namespace MudBlazor.Events
     {
 
     }
-}
+} 
