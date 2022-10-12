@@ -181,7 +181,7 @@
                                     @{ var rowClass = new CssBuilder(RowClass).AddClass(RowClassFunc?.Invoke(item, rowIndex)).Build(); }
                                     @{ var rowStyle = new StyleBuilder().AddStyle(RowStyle).AddStyle(RowStyleFunc?.Invoke(item, rowIndex)).Build(); }
                                     @{ var tmpRowIndex = rowIndex; }
-                                    <tr class="mud-table-row @rowClass" Style="@rowStyle" @key="item" @onclick="@((args) => OnRowClickedAsync(args, item, tmpRowIndex))">  
+                                    <tr class="mud-table-row @rowClass" Style="@rowStyle" @key="item" @onclick="@((args) => OnRowClickedAsync(args, item, tmpRowIndex))">
                                         <CascadingValue Value="@Validator" IsFixed="true">
                                         @foreach (var column in RenderedColumns)
                                         {
@@ -189,9 +189,9 @@
                                             {
                                                 @Cell(column, item)
                                             }
-                                        }                                       
+                                        }
                                         </CascadingValue>
-                                    </tr>                                   
+                                    </tr>
                                     @if (_openHierarchies.Contains(item) && ChildRowContent != null)
                                     {
                                         <tr class="mud-table-row">
@@ -199,7 +199,7 @@
                                                 @ChildRowContent(new CellContext<T>(this, item))
                                             </td>
                                         </tr>
-                                    }                                        
+                                    }
                                     @{ rowIndex++; }
                                 </MudVirtualize>
                             }
