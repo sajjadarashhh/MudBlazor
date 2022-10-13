@@ -118,5 +118,10 @@
     -->
     <Watch Include="**/*.scss" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Watch Remove="Styles\utilities\text\text-align.scss" />
+    <Watch Remove="Styles\utilities\text\_index.scss" />
+  </ItemGroup>
    
 </Project>
