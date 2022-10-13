@@ -396,4 +396,5 @@ tools/CssUtilitiesGenerator/output/
 
 src/MudBlazor/wwwroot/MudBlazor.min.css.gz
 src/MudBlazor/wwwroot/MudBlazor.min.js.gz
-
+ 
+/src/MudBlazor/Styles/utilities/text
