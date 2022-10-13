@@ -118,11 +118,5 @@
     -->
     <Watch Include="**/*.scss" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Watch Remove="Styles\utilities\sizing\_height.scss" />
-    <Watch Remove="Styles\utilities\sizing\_index.scss" />
-    <Watch Remove="Styles\utilities\sizing\_width.scss" />
-  </ItemGroup>
-
+   
 </Project>

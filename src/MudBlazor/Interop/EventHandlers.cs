@@ -16,4 +16,4 @@ namespace MudBlazor.Events
     {
 
     }
-} 
+}

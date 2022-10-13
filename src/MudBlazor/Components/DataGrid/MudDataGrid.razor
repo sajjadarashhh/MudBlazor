@@ -189,9 +189,9 @@
                                             {
                                                 @Cell(column, item)
                                             }
-                                        }
+                                        }                                       
                                         </CascadingValue>
-                                    </tr>
+                                    </tr>                                   
                                     @if (_openHierarchies.Contains(item) && ChildRowContent != null)
                                     {
                                         <tr class="mud-table-row">
@@ -199,7 +199,7 @@
                                                 @ChildRowContent(new CellContext<T>(this, item))
                                             </td>
                                         </tr>
-                                    }
+                                    }                                        
                                     @{ rowIndex++; }
                                 </MudVirtualize>
                             }

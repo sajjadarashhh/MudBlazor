@@ -128,46 +128,6 @@
     <Content Remove="excubowebcompiler.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignContentCenterExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignContentEndExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignContentSpaceAroundExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignContentSpaceBetweenExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignContentStartExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignItemBaselineExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignItemCenterExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignItemEndExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignItemStartExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignItemStretchExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignSelfCenterExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignSelfEndExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignSelfStartExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\AlignSelfStretchExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexAutoExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexDirectionColumnExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexDirectionColumnReversedExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexDirectionRowExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexDirectionRowReversedExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexEnableExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexFlex1ExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexGrowExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexInitalExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexNoGrowExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexNoneExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexNoShrinkExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexShrinkExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexWrapNoWrapExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexWrapReverseExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\FlexWrapWrapExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\GapBasicExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\GapRowColExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\JustifyContentCenterExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\JustifyContentEndExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\JustifyContentSpaceAroundExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\JustifyContentSpaceBetweenExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\JustifyContentStartExampleCode.html" />
-    <None Remove="Pages\CSS Utilities\Sizing\Code\OrderBasicExampleCode.html" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="wwwroot\images\landingpage" />
   </ItemGroup>
 
