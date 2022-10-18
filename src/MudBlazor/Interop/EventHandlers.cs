@@ -1,7 +1,8 @@
 ﻿using System;
-using Microsoft.AspNetCore.Components; 
-namespace MudBlazor.Events
+using Microsoft.AspNetCore.Components;
+namespace MudBlazor
 {
+#if !NET7_0_OR_GREATER
     /// <summary>
     /// see https://github.com/dotnet/aspnetcore/issues/13104
     /// </summary>
@@ -16,4 +17,5 @@ namespace MudBlazor.Events
     {
 
     }
+#endif
 }
