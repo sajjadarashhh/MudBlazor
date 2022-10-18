@@ -118,5 +118,5 @@
     -->
     <Watch Include="**/*.scss" />
   </ItemGroup>
-   
+
 </Project>
